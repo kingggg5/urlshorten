@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #19191d !important;
+  background-color: #f4f4f8 !important;
   font-weight: 300 !important;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 
 h2 {
   font-size: 20px;
-  color: #fff;
+  color: #080000;
 }
 
 .custom-table {
@@ -131,7 +131,6 @@ h2 {
   color: #fff;
 }
 
-/* Custom Checkbox */
 .control {
   display: block;
   position: relative;
@@ -174,7 +173,6 @@ h2 {
   display: none;
 }
 
-
 /* for dark controls override */
 
 input {
@@ -210,7 +208,6 @@ input::placeholder {
 
 textarea::placeholder {
   color: #b3b3b3 !important;
-  /* font-weight: 500; */
 }
 
 textarea:focus,
@@ -225,7 +222,6 @@ input[type=number]:focus,
 [type=email].form-control:focus,
 [type=tel].form-control:focus,
 [contenteditable].form-control:focus {
-  /* box-shadow: inset 0 -1px 0 #ddd; */
   outline: none;
   border: none;
 }
@@ -241,4 +237,11 @@ form {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+}
+
+.table td {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
